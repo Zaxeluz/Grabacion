@@ -1,0 +1,15 @@
+﻿<Window x:Class="Grabacion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Grabacion"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btnIniciarGrabacion" Content="Iniciar Grabacion" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="130" Click="btnIniciarGrabacion_Click"/>
+        <Button x:Name="btnDetenerGrabacion" Content="Detener Grabacion" HorizontalAlignment="Left" Margin="377,10,0,0" VerticalAlignment="Top" Width="130" Click="btnDetenerGrabacion_Click"/>
+        <TextBlock x:Name="lblMuestra" HorizontalAlignment="Left" Margin="224,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="41"><Run Text="0"/><LineBreak/><Run/></TextBlock>
+
+    </Grid>
+</Window>
