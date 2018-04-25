@@ -8,8 +8,9 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Button x:Name="btnIniciarGrabacion" Content="Iniciar Grabacion" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="130" Click="btnIniciarGrabacion_Click"/>
-        <Button x:Name="btnDetenerGrabacion" Content="Detener Grabacion" HorizontalAlignment="Left" Margin="377,10,0,0" VerticalAlignment="Top" Width="130" Click="btnDetenerGrabacion_Click"/>
-        <TextBlock x:Name="lblMuestra" HorizontalAlignment="Left" Margin="224,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="41"><Run Text="0"/><LineBreak/><Run/></TextBlock>
+        <Button x:Name="btnDetenerGrabacion" Content="Detener Grabacion" HorizontalAlignment="Left" Margin="193,10,0,0" VerticalAlignment="Top" Width="130" Click="btnDetenerGrabacion_Click"/>
+        <TextBlock x:Name="lblMuestra" HorizontalAlignment="Left" Margin="193,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" TextAlignment="Center" Height="16"><Run Text="0"/><LineBreak/><Run/></TextBlock>
+        <Button x:Name="btnReproducirGrabacion" Content="Reproducir Grabacion" HorizontalAlignment="Left" Margin="377,10,0,0" VerticalAlignment="Top" Width="130" Click="btnReproducirGrabacion_Click"/>
 
     </Grid>
 </Window>
